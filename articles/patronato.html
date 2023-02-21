@@ -10,15 +10,19 @@
     <title>PATRONATO</title>
     <link rel="icon" type="image/png" href="../icons/futbol.png">
     <style>
-        #noticia {
+        .noticia {
             text-align: center;
         }
     </style>
 </head>
 <body style="background-color: rgb(225, 34, 34);">
-    <h2 id="noticia">Patronato <small>desciende</small>... pero hace historia ganando la Copa argentina</h2>
-    <img src="../images/patronato.jpg" alt="plantel de patronato" width="550"/>
-    <p id="noticia"><strong>El solitario gol de Tiago Banega le da el primer título en sus 108 años de vida y un billete para la Libertadores</strong></p>
+    <h2 class="noticia">Patronato <small>desciende</small>... pero hace historia ganando la Copa argentina</h2>
+    <picture>
+        <source media="(max-width: 400px)" srcset="../images/patronato-enano.jpg">
+        <source media="(min-width: 401px)" srcset="../images/patronato.jpg">   
+        <img src="../images/patronato.jpg" alt="plantel de patronato"/>
+    </picture>
+    <p class="noticia"><strong>El solitario gol de Tiago Banega le da el primer título en sus 108 años de vida y un billete para la Libertadores</strong></p>
     <p>
         <mark>Patronato de Paraná</mark> ha derrotado por 1-0 a Talleres de Córdoba y se quedó con el título de la Copa Argentina 
         en una final inédita que se disputó en el estadio Malvinas Argentinas de la ciudad de Mendoza, 

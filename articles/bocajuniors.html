@@ -10,15 +10,19 @@
     <title>BOCA JUNIORS</title>
     <link rel="icon" type="image/png" href="../icons/futbol.png">
     <style>
-        #noticia {
+        .noticia {
             text-align: center;
         }
     </style>
 </head>
 <body style="background-color: rgb(225, 34, 34);">
-    <h2 id="noticia">El gen ganador del <q>genio</q> Riquelme: cinco títulos desde 2019</h2>
-    <img src="../images/boquita.jpg" alt="boca juniors campeon" width="550">
-    <p>
+    <h2 class="noticia">El gen ganador del <q>genio</q> Riquelme: cinco títulos desde 2019</h2>
+    <picture>
+        <source media="(max-width: 400px)" srcset="../images/boquita-pasion.jpg">
+        <source media="(min-width: 401px)" srcset="../images/boquita.jpg">   
+        <img src="../images/boquita.jpg" alt="boca juniors campeon">
+    </picture>
+    <p class="noticia">
         <strong>Boca ganó una nueva Liga bajo el mandato de <u>Juan Román Riquelme</u>, 
         máximo ídolo de la historia 'xeneize' y actual vicepresidente</strong>
     </p>
@@ -38,7 +42,11 @@
         Igualó a River... y puede superarle antes de que acabe el año.
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/LFtwPG5YNT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <img src="../images/roman.jpg" alt="riquelme en un palco" width="550">
+    <picture>
+        <source media="(max-width: 400px)" srcset="../images/roman-enano.jpg">
+        <source media="(min-width: 401px)" srcset="../images/roman.jpg">   
+        <img src="../images/roman.jpg" alt="riquelme en un palco">
+    </picture>
     <a href="../index.html#inicio2">
         <p>Volver al index</p>
     </a>
