@@ -14,7 +14,7 @@
             margin: auto;
 		    display: block;
         }
-        #noticia {
+        .noticia {
             text-align: center;
         }
     </style>
@@ -22,17 +22,25 @@
 <body style="background-color: rgb(225, 34, 34);">
     <h1 style="text-align: center;">BIENVENIDO A LA PAGINA DE NOTICIAS DEPORTIVAS...</h1>
     <div class="portadaweb">
-        <img src="images/Marcatoons-el-mejor-.jpg" alt="Banner de la web de noticias"/>
+        <picture>
+            <source media="(max-width: 400px)" srcset="./images/Marcatoons-el-mejor-chiquito.jpg">
+            <source media="(min-width: 401px)" srcset="./images/Marcatoons-el-mejor-.jpg">      
+            <img src="./images/Marcatoons-el-mejor-.jpg" alt="Banner de la web de noticias"/>
+        </picture>
     </div>
 
     <h3><i>Copa Argentina</i></h3>
     <a id="inicio"></a>
     <a href="./articles/patronato.html">
-        <h2 id="noticia">Patronato <small>desciende</small>... pero hace historia ganando la Copa argentina</h2>
+        <h2 class="noticia">Patronato <small>desciende</small>... pero hace historia ganando la Copa argentina</h2>
     </a>
-    <p id="noticia"><strong>El solitario gol de Tiago Banega le da el primer título en sus 108 años de vida y un billete para la Libertadores</strong></p>
+    <p class="noticia"><strong>El solitario gol de Tiago Banega le da el primer título en sus 108 años de vida y un billete para la Libertadores</strong></p>
     <a href="articles/patronato.html">
-        <img src="images/patronato.jpg" alt="plantel de patronato" width="550"/>
+        <picture>
+            <source media="(max-width: 400px)" srcset="./images/patronato-enano.jpg">
+            <source media="(min-width: 401px)" srcset="./images/patronato.jpg">   
+            <img src="images/patronato.jpg" alt="plantel de patronato"/>
+        </picture>
     </a>
     <a href="articles/patronato.html">
         <p>Leer mas</p>
@@ -41,14 +49,18 @@
     <h3><i>Liga Argentina</i></h3>
     <a id="inicio2"></a>
     <a href="./articles/bocajuniors.html">
-        <h2 id="noticia">El gen ganador del <q>genio</q> Riquelme: cinco títulos desde 2019</h2>
+        <h2 class="noticia">El gen ganador del <q>genio</q> Riquelme: cinco títulos desde 2019</h2>
     </a>
-    <p id="noticia">
+    <p class="noticia">
         <strong>Boca ganó una nueva Liga bajo el mandato de <u>Juan Román Riquelme</u>, 
         máximo ídolo de la historia 'xeneize' y actual vicepresidente</strong>
     </p>
     <a href="./articles/bocajuniors.html">
-        <img src="images/boquita.jpg" alt="boca juniors campeon" width="550">
+        <picture>
+            <source media="(max-width: 400px)" srcset="./images/boquita-pasion.jpg">
+            <source media="(min-width: 401px)" srcset="./images/boquita.jpg">   
+            <img src="images/boquita.jpg" alt="boca juniors campeon">
+        </picture>
     </a>
     
     <a href="articles/bocajuniors.html">
