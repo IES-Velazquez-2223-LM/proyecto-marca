@@ -1,0 +1,52 @@
+.portadaweb img{
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.noticia {
+    text-align: center;
+}
+body {
+    background-color: rgb(225, 34, 34);
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+img {
+    margin: auto;
+    display: block;
+}
+header {
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 12px 24px;
+    margin: 0 10px; /* Añadir margen entre los botones */
+    line-height: 48px; /* Establecer la altura de línea para centrar verticalmente */
+}
+footer{
+    background-color: olive;
+	font-variant: small-caps;
+	float: left;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+}
+.articulo1{
+    background-color: deepskyblue;
+}
+.articulo2{
+    background-color: yellow;
+}
+.articulo3{
+    background-color: rgb(255, 157, 0);
+}
+.articulo4{
+    background-color: rgb(191, 0, 255);
+}
