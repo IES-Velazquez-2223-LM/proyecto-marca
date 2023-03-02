@@ -9,6 +9,7 @@
 body {
     background-color: rgb(225, 34, 34);
     width: 100%;
+    margin: 0px;
 }
 h1 {
     text-align: center;
@@ -49,4 +50,25 @@ footer{
 }
 .articulo4{
     background-color: rgb(191, 0, 255);
+}
+#viniciusweb{
+    background-color: yellow;
+}
+#barcaweb{
+    background-color: yellow;
+}
+#brasil{
+    background-color: rgb(255, 157, 0);
+}
+#scaloneta{
+    background-color: rgb(255, 157, 0);
+}
+#garnachopa{
+    background-color: rgb(191, 0, 255);
+}
+#ligadechina{
+    background-color: rgb(191, 0, 255);
+}
+.argentinanoticias{
+    background-color: deepskyblue;
 }
