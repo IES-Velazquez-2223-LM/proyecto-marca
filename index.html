@@ -9,19 +9,12 @@
     <meta name="robots" content="all">
     <title>EL FUTBOL QUE ME GUSTA</title>
     <link rel="icon" type="image/png" href="icons/futbol.png">
-    <style>
-        .portadaweb img{
-            margin: auto;
-		    display: block;
-        }
-        .noticia {
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"> 
+    
 </head>
-<body style="background-color: rgb(225, 34, 34);">
+<body>
     <header>
-        <h1 style="text-align: center;">BIENVENIDO A LA PAGINA DE NOTICIAS DEPORTIVAS...</h1>
+        <h1>BIENVENIDO A LA PAGINA DE NOTICIAS DEPORTIVAS...</h1>
         <div class="portadaweb">
             <picture>
                 <source media="(max-width: 400px)" srcset="./images/Marcatoons-el-mejor-chiquito.jpg">
@@ -30,14 +23,15 @@
             </picture>
         </div>
         <nav>
-            <a href="">ARGENTINA</a>
-            <a href="">ESPAÑA</a>
-            <a href="">PERU</a>
-            <a href="">BRASIL</a>
+            <a class="button" href="./index.html#argentina">ARGENTINA</a>
+            <a class="button" href="./index.html#españa">ESPAÑA</a>
+            <a class="button" href="./index.html#america">AMERICA</a>
+            <a class="button" href="./index.html#europa">EUROPA</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="articulo1">
+            <h1 id="argentina">ARGENTINA</h1>
             <article>
                 <h3><i>Copa Argentina</i></h3>
                 <a id="inicio"></a>
@@ -79,22 +73,123 @@
                 </a>
             </article>
         </section>
-        <section>
-            <article></article>
-            <article></article>
+        <section class="articulo2">
+            <h1 id="españa">ESPAÑA</h1>
+            <article>
+                <h3><i>Real Madrid</i></h3>
+                <a href="./articles/vinicius.html">
+                    <h2 class="noticia">Vinicius lo quiere todo</h2>
+                </a>
+                <p class="noticia">Su liderazgo en la Champions puede impulsar su carrera hacia el Balón de Oro</p>
+                <a href="articles/vinicius.html">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="./images/viniciusjr-enano.jpg">
+                        <source media="(min-width: 401px)" srcset="./images/viniciusjr.jpg">   
+                        <img src="images/viniciusjr.jpg" alt="vinicius dando su prime">
+                    </picture>
+                </a>
+                <a href="articles/vinicius.html">
+                    <p>Leer mas</p>
+                </a>
+            </article>
+            <article>
+                <h3><i>Barcelona</i></h3>
+                <a href="./articles/barcelona.html">
+                    <h2 class="noticia">La factura de la Europa League</h2>
+                </a>
+                <p class="noticia">La eliminación de los culés la temporada pasada contra el Eintracht marcó el resto de la temporada</p>
+                <a href="articles/barcelona.html">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="./images/xavi-enano.jpg">
+                        <source media="(min-width: 401px)" srcset="./images/xavi.jpg">   
+                        <img src="images/xavi.jpg" alt="xavi dando una rueda de prensa">
+                    </picture>
+                </a>
+                <a href="articles/barcelona.html">
+                    <p>Leer mas</p>
+                </a>
+            </article>
         </section>
-        <section>
-            <article></article>
-            <article></article>
+        <section class="articulo3" >
+            <h1 id="america">AMERICA</h1>
+            <article>
+                <h3><i>Brasil</i></h3>
+                <a href="./articles/brazuca.html">
+                    <h2 class="noticia">Gabriel Menino, el brasileño que siguió la dieta de Cristiano y pensó que "iba a morir"</h2>
+                </a>
+                <p class="noticia">El medio de Palmeiras siguió un estricto régimen para recuperar su mejor nivel</p>
+                <a href="articles/brazuca.html">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="./images/brasileno-enano.jpg">
+                        <source media="(min-width: 401px)" srcset="./images/brasileno.jpg">   
+                        <img src="images/brasileno.jpg" alt="jugador brasileño alzando una copa">
+                    </picture>
+                </a>
+                <a href="articles/brazuca.html">
+                    <p>Leer mas</p>
+                </a>
+            </article>
+            <article>
+                <h3><i>Argentina</i></h3>
+                <a href="./articles/scaloni.html">
+                    <h2 class="noticia">Scaloni renueva con Argentina hasta 2026</h2>
+                </a>
+                <p class="noticia">El seleccionador campeón de América y del Mundo seguirá en el cargo durante el próximo ciclo mundialista</p>
+                <a href="articles/scaloni.html">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="./images/scaloni-enano.jpg">
+                        <source media="(min-width: 401px)" srcset="./images/scaloni.jpg">   
+                        <img src="images/scaloni.jpg" alt="scaloni mirando la copa del mundo">
+                    </picture>
+                </a>
+                <a href="articles/scaloni.html">
+                    <p>Leer mas</p>
+                </a>
+            </article>
         </section>
-        <section>
-            <article></article>
-            <article></article>
+        <section class="articulo4">
+            <h1 id="europa">EUROPA</h1>
+            <article>
+                <h3><i>Premier League</i></h3>
+                <a href="./articles/garnacho.html">
+                    <h2 class="noticia">El 'madrileño' Garnacho se entrega a Argentina</h2>
+                </a>
+                <p class="noticia">Celebró la Carabao Cup 'enfundado' en la bandera de Argentina. Scaloni ya lo metió en alguna pre-lista de convocados para la albiceleste</p>
+                <a href="articles/garnacho.html">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="./images/garnacho-enano.jpg">
+                        <source media="(min-width: 401px)" srcset="./images/garnacho.jpg">   
+                        <img src="images/garnacho.jpg" alt="garnacho gallardo">
+                    </picture>
+                </a>
+                <a href="articles/garnacho.html">
+                    <p>Leer mas</p>
+                </a>
+            </article>
+            <article>
+                <h3><i>Liga China</i></h3>
+                <a href="./articles/ligachina.html">
+                    <h2 class="noticia">Javier Pereira, nuevo entrenador del Shangai Port</h2>
+                </a>
+                <p class="noticia">El ex del Levante deja el Henan Songshan con la esperanza de pelear por la Superliga</p>
+                <a href="articles/ligachina.html">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="./images/levantechino-enano.jpg">
+                        <source media="(min-width: 401px)" srcset="./images/levantechino.jpg">   
+                        <img src="images/levantechino.jpg" alt="liga china recibe nuevo entrenador">
+                    </picture>
+                </a>
+                <a href="articles/ligachina.html">
+                    <p>Leer mas</p>
+                </a>
+            </article>
         </section>
     
     </main>
     <footer>
         <p>HECHO POR DANIEL MAMANI TORRES</p>
+        <p>Asignatura: Lenguajes de marcas</p>
+        <p>Curso: 2022-2023</p>
     </footer>
 </body>
 </html>
