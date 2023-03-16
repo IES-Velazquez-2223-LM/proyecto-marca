@@ -28,8 +28,9 @@ header {
     border: 1px solid black;
     border-radius: 9px;
     padding: 12px 24px;
-    margin: 0 10px; 
+    margin: 0 10px 30px; 
     line-height: 48px; 
+    
 }
 footer{
     background-color: olive;
@@ -41,15 +42,19 @@ footer{
 }
 .articulo1{
     background-color: deepskyblue;
+    border: 10px double black;
 }
 .articulo2{
     background-color: yellow;
+    border: 10px double black;
 }
 .articulo3{
     background-color: rgb(255, 157, 0);
+    border: 10px double black;
 }
 .articulo4{
     background-color: rgb(191, 0, 255);
+    border: 10px double black;
 }
 #viniciusweb{
     background-color: yellow;
@@ -81,4 +86,29 @@ td{
     border: 5px solid black;
     padding: 10px;
     text-align: center;
+}
+article{
+    border: 10px double black;
+}
+section{
+    margin: 0px;
+}
+.bocacentrado p{
+    text-align: center;
+}
+.bocacentrado video{
+    margin: auto;
+    display: block;
+}
+.bocacentrado audio{
+    margin: auto;
+    display: block;
+}
+.bocacentrado iframe{
+    margin: auto;
+    display: block;
+}
+.boton-index img{
+    margin-top: 30px;
+    width: 10%;
 }
